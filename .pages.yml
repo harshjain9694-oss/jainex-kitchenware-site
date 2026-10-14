@@ -1,0 +1,128 @@
+media:
+  - name: product_images
+    label: Product photos
+    input: assets/products
+    output: /assets/products
+    extensions: [jpg, jpeg, png, webp]
+  - name: brand_assets
+    label: Brand assets
+    input: assets
+    output: /assets
+    extensions: [jpg, jpeg, png, webp, svg]
+content:
+  - name: products
+    label: Products
+    type: file
+    path: data/products.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Product ID (unique number)
+        type: number
+        required: true
+      - name: name
+        label: Product name
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: [storage, serveware, tools]
+      - name: price
+        label: Price in INR
+        type: number
+        required: true
+      - name: description
+        label: Product description
+        type: text
+      - name: tag
+        label: Small tag (optional)
+        type: string
+      - name: icon
+        label: Placeholder icon if no photo
+        type: string
+      - name: image
+        label: Product photo path
+        type: image
+        options:
+          media: product_images
+          path: assets/products
+          extensions: [jpg, jpeg, png, webp]
+      - name: active
+        label: Show product on website
+        type: boolean
+  - name: site_settings
+    label: Website settings
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: announcement
+        label: Top announcement bar
+        type: string
+      - name: heroEyebrow
+        label: Homepage small heading
+        type: string
+      - name: heroTitleBefore
+        label: Homepage main heading
+        type: string
+      - name: heroTitleAccent
+        label: Homepage highlighted heading
+        type: string
+      - name: heroDescription
+        label: Homepage description
+        type: text
+      - name: productsEyebrow
+        label: Products small heading
+        type: string
+      - name: productsTitleBefore
+        label: Products heading first line
+        type: string
+      - name: productsTitleAccent
+        label: Products heading highlighted line
+        type: string
+      - name: productsIntro
+        label: Products introduction
+        type: text
+      - name: aboutEyebrow
+        label: About Us small heading
+        type: string
+      - name: aboutTitleBefore
+        label: About Us heading first line
+        type: string
+      - name: aboutTitleAccent
+        label: About Us highlighted line
+        type: string
+      - name: aboutText
+        label: About Us full text
+        type: text
+      - name: contactTitle
+        label: Contact heading
+        type: string
+      - name: contactText
+        label: Contact description
+        type: text
+      - name: backgroundColor
+        label: Main background color (hex)
+        type: string
+      - name: heroBackgroundColor
+        label: Homepage background color (hex)
+        type: string
+      - name: accentColor
+        label: Accent color (hex)
+        type: string
+      - name: headerBackgroundColor
+        label: Header background color (hex)
+        type: string
+      - name: wholesaleBackgroundColor
+        label: Wholesale section background color (hex)
+        type: string
+      - name: pageTitle
+        label: Browser page title
+        type: string
+      - name: metaDescription
+        label: Search description
+        type: text

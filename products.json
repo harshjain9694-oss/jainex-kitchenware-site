@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Steel Matka Stand",
+    "category": "storage",
+    "price": 249,
+    "description": "Matka stand with space for glasses and removable drip tray.",
+    "tag": "Popular",
+    "icon": "◉",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Stainless Steel Ice Cream Bowls",
+    "category": "serveware",
+    "price": 199,
+    "description": "Reusable bowls for desserts and everyday serving.",
+    "tag": "Everyday",
+    "icon": "◌",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "3-Tier Corner Rack",
+    "category": "storage",
+    "price": 599,
+    "description": "A space-saving rack for kitchen organisation.",
+    "tag": "Space saver",
+    "icon": "▤",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "Steel Countertop Chopping Board",
+    "category": "tools",
+    "price": 349,
+    "description": "A practical surface for everyday kitchen prep.",
+    "tag": "Kitchen tool",
+    "icon": "▱",
+    "image": ""
+  }
+]
