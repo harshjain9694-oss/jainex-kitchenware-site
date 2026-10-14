@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Steel Matka Stand",
+    "category": "Storage",
+    "price": 249,
+    "description": "Premium steel matka stand with glass tray",
+    "tag": "Popular",
+    "icon": "⭐",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Stainless Steel Ice Cream Bowls",
+    "category": "Serveware",
+    "price": 199,
+    "description": "Reusable stainless steel bowls for desserts and everyday serving",
+    "tag": "Popular",
+    "icon": "🍨",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "Multipurpose Kitchen Rack",
+    "category": "Storage",
+    "price": 499,
+    "description": "Space-saving kitchen storage rack",
+    "tag": "New",
+    "icon": "🏠",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "Steel Counter Top Chopping Board",
+    "category": "Kitchen Tools",
+    "price": 299,
+    "description": "Easy-to-clean stainless steel chopping board",
+    "tag": "Popular",
+    "icon": "🔪",
+    "image": ""
+  }
+]
