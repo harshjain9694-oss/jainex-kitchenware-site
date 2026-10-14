@@ -1,42 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Steel Matka Stand",
-    "category": "Storage",
-    "price": 249,
-    "description": "Premium steel matka stand with glass tray",
-    "tag": "Popular",
+    "name": "Steel Jainex tray Matka Stand",
+    "category": "storage",
+    "price": 145,
+    "description": "Upgrade your kitchen and dining space with the stylish Jainex Kitchenware Steel Matka Stand with Glass Tray. Made with a sleek stainless steel frame, this stand features a vibrant red tray and a lower storage section for glasses. Its modern design keeps your serving area organized while adding an elegant touch to your home.\n\nPerfect for serving water and keeping glasses neatly arranged for everyday use, guests, and special occasions.",
+    "tag": "Best Seller",
     "icon": "⭐",
-    "image": ""
+    "image": "/assets/products/ChatGPT Image Oct 14, 2026, 05_45_15 PM.jpg",
+    "active": true
   },
   {
     "id": 2,
-    "name": "Stainless Steel Ice Cream Bowls",
-    "category": "Serveware",
-    "price": 199,
-    "description": "Reusable stainless steel bowls for desserts and everyday serving",
+    "name": "Jainex Wair tray Matka Stand",
+    "category": "storage",
+    "price": 155,
     "tag": "Popular",
     "icon": "🍨",
-    "image": ""
+    "image": "/assets/products/4ee077eb-6727-448a-b133-1135cae483d2.jpg",
+    "active": false
   },
   {
     "id": 3,
-    "name": "Multipurpose Kitchen Rack",
-    "category": "Storage",
-    "price": 499,
-    "description": "Space-saving kitchen storage rack",
+    "name": "Stainless Steel Wall Hook Rack – 6 Hooks",
+    "category": "storage",
+    "price": 120,
+    "description": "Organize your kitchen and home with the stylish Jainex Kitchenware Stainless Steel Wall Hook Rack. Featuring 6 sturdy hooks, this rack is ideal for hanging kitchen utensils, towels, cups, and everyday essentials. Its sleek stainless steel design helps keep your space neat and organized. A practical storage solution for kitchens and other areas of your home.\n\nNote: Please confirm the product dimensions and mounting accessories before purchase.",
     "tag": "New",
     "icon": "🏠",
-    "image": ""
-  },
-  {
-    "id": 4,
-    "name": "Steel Counter Top Chopping Board",
-    "category": "Kitchen Tools",
-    "price": 299,
-    "description": "Easy-to-clean stainless steel chopping board",
-    "tag": "Popular",
-    "icon": "🔪",
-    "image": ""
+    "image": "/assets/products/ChatGPT Image Oct 14, 2026, 05_59_15 PM.jpg",
+    "active": true
   }
 ]
