@@ -1,6 +1,6 @@
 // Jainex Kitchenware website content is managed in data/products.json and data/site.json.
 // WhatsApp number is in international format without + or spaces.
-const WHATSAPP_NUMBER = "919983366368";
+const WHATSAPP_NUMBER = "916375571735";
 let products = [];
 let activeFilter = "all";
 const grid = document.getElementById("productGrid");
