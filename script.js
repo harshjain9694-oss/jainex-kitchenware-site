@@ -69,3 +69,20 @@ document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("menuToggle").addEventListener("click", () => document.getElementById("navMenu").classList.toggle("open"));
 document.querySelectorAll("#navMenu a").forEach(a => a.addEventListener("click", () => document.getElementById("navMenu").classList.remove("open")));
 init();
+const cart = [];
+
+function addToCart(product) {
+  const id = String(product.id);
+  const existing = cart.find(item => String(item.id) === id);
+  if (existing) {
+    existing.quantity += 1;
+  } else {
+    cart.push({
+      id: product.id,
+      name: product.name,
+      price: Number(product.price) || 0,
+      quantity: 1
+    });
+  }
+  alert(product.name + " cart mein add ho gaya!");
+}
