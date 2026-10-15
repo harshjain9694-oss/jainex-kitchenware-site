@@ -84,5 +84,45 @@ function addToCart(product) {
       quantity: 1
     });
   }
-  alert(product.name + " cart mein add ho gaya!");
+  updateCartDisplay();
+}
+function updateCartDisplay() {
+  const itemsBox = document.getElementById("cartItems");
+  const subtotalBox = document.getElementById("cartSubtotal");
+  const gstBox = document.getElementById("cartGST");
+  const totalBox = document.getElementById("cartTotal");
+
+  if (!itemsBox || !subtotalBox || !gstBox || !totalBox) return;
+
+  if (cart.length === 0) {
+    itemsBox.textContent = "Your cart is empty.";
+  } else {
+    itemsBox.innerHTML = cart.map((item, index) => `
+      <div>
+        <strong>${item.name}</strong> — ₹${item.price}
+        <button type="button" onclick="changeQuantity(${index}, -1)">−</button>
+        <span>${item.quantity}</span>
+        <button type="button" onclick="changeQuantity(${index}, 1)">+</button>
+        <button type="button" onclick="removeCartItem(${index})">Remove</button>
+      </div>
+    `).join("");
+  }
+
+  const subtotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const gst = Math.round(subtotal * 0.05);
+  subtotalBox.textContent = subtotal.toFixed(2);
+  gstBox.textContent = gst.toFixed(2);
+  totalBox.textContent = (subtotal + gst).toFixed(2);
+}
+
+function changeQuantity(index, amount) {
+  if (!cart[index]) return;
+  cart[index].quantity += amount;
+  if (cart[index].quantity <= 0) cart.splice(index, 1);
+  updateCartDisplay();
+}
+
+function removeCartItem(index) {
+  cart.splice(index, 1);
+  updateCartDisplay();
 }
