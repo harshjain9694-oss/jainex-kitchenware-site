@@ -36,7 +36,8 @@ function render() {
   if (!list.length) { grid.innerHTML = '<div class="empty">No products found. Try another search.</div>'; return; }
   grid.innerHTML = list.map(p => {
     const image = p.image ? `<img src="${String(p.image).replaceAll('"', '&quot;')}" alt="${String(p.name || '').replaceAll('"', '&quot;')}" loading="lazy">` : `<span class="product-placeholder">${p.icon || "◉"}</span>`;
- return `<article class="product-card"><div class="product-image">${image}${p.tag ? `<span class="product-tag">${p.tag}</span>` : ""}</div><div class="product-info"><span class="category">${categoryLabel(p.category)}</span><h3>${p.name || "Kitchenware product"}</h3><p>${p.description || "Contact us for product details."}</p><div class="product-bottom"><span class="price">${money(p.price)}<small>listed price</small></span><button class="mini-order" data-id="${p.id}">Enquire ↗</button></div></div></article>`;<button class="mini-order" data-id="${p.id}">Enquire ↗</button>  }).join("");
+    return `<article class="product-card"><div class="product-image">${image}${p.tag ? `<span class="product-tag">${p.tag}</span>` : ""}</div><div class="product-info"><span class="category">${categoryLabel(p.category)}</span><h3>${p.name || "Kitchenware product"}</h3><p>${p.description || "Contact us for product details."}</p><div class="product-bottom"><span class="price">${money(p.price)}<small>listed price</small></span><button class="mini-order" data-id="${p.id}">Enquire ↗</button></div></div></article>`;
+  }).join("");
   grid.querySelectorAll(".mini-order").forEach(b => b.addEventListener("click", () => {
     const p = products.find(x => String(x.id) === b.dataset.id);
     if (p) whatsapp(`Hello Jainex Kitchenware, I want to enquire about ${p.name}. Listed price: ${money(p.price)}. Please confirm current price, availability and delivery.`);
@@ -68,8 +69,6 @@ document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("menuToggle").addEventListener("click", () => document.getElementById("navMenu").classList.toggle("open"));
 document.querySelectorAll("#navMenu a").forEach(a => a.addEventListener("click", () => document.getElementById("navMenu").classList.remove("open")));
 init();
-const cart = [];
-
 function addToCart(product) {
   const id = String(product.id);
   const existing = cart.find(item => String(item.id) === id);
