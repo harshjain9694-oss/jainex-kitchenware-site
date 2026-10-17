@@ -3,75 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Jainex Kitchenware — retail and wholesale kitchenware.">
-<title>Jainex Kitchenware | Retail & Wholesale</title>
+<meta name="description" content="Jainex Kitchenware — practical kitchen essentials.">
+<title>Jainex Kitchenware | Kitchen Essentials</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="announcement" id="announcement">RETAIL & WHOLESALE · BULK ORDERS WELCOME · WHATSAPP ENQUIRIES</div>
+<div class="announcement" id="announcement">JAINEX KITCHENWARE · EVERYDAY KITCHEN ESSENTIALS</div>
 <header class="header">
 <a class="brand" href="#home"><img src="jainex-logo.png" alt="Jainex Kitchenware logo"></a>
 <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
-<nav id="navMenu"><a href="#home">Home</a><a href="#products">Products</a><a href="#wholesale">Wholesale</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
-<a class="header-link" href="#products">Explore Products ↗</a>
+<nav id="navMenu"><a href="#home">Home</a><a href="products.html">Products</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+<a class="header-link" href="cart.html">🛒 Cart (<span data-cart-count>0</span>)</a>
 </header>
+
+<section class="hero-slider" id="heroSlider" aria-label="Featured Jainex Kitchenware banners">
+  <div class="slider-track" id="sliderTrack"></div>
+  <button class="slider-arrow slider-prev" id="sliderPrev" type="button" aria-label="Previous banner">‹</button>
+  <button class="slider-arrow slider-next" id="sliderNext" type="button" aria-label="Next banner">›</button>
+  <div class="slider-dots" id="sliderDots" aria-label="Choose banner"></div>
+</section>
 <main>
 <section class="hero" id="home">
 <div class="hero-copy"><span class="eyebrow" id="heroEyebrow">SMARTER EVERYDAY LIVING</span><h1><span id="heroTitleBefore">Good kitchens start with</span> <em id="heroTitleAccent">Jainex.</em></h1>
-<p id="heroDescription">Practical, dependable kitchenware for every home and every business. Shop retail or enquire about wholesale and bulk orders.</p>
-<div class="actions"><a class="btn primary" href="#products">Explore products →</a><a class="btn secondary" href="#wholesale">Wholesale enquiry</a></div>
-<div class="proof">✓ Retail orders　 ✓ Bulk enquiries　 ✓ WhatsApp support</div></div>
+<p id="heroDescription">Practical, dependable kitchenware for every home. Explore our collection and add your favourites to cart.</p>
+<div class="actions"><a class="btn primary" href="products.html">Explore products →</a></div>
+<div class="proof">✓ Everyday utility　 ✓ Quality essentials　 ✓ WhatsApp support</div></div>
 <div class="hero-art"><div class="circle"></div><div class="pot pot1"><i></i></div><div class="pot pot2"><i></i></div><div class="cup cup1"></div><div class="cup cup2"></div><span class="art-note">EVERYDAY ESSENTIALS</span></div>
 </section>
-<section class="trust"><div><b>01</b><span><strong>Everyday utility</strong><small>Useful kitchen essentials</small></span></div><div><b>02</b><span><strong>Retail & wholesale</strong><small>For homes and retailers</small></span></div><div><b>03</b><span><strong>Easy enquiries</strong><small>Connect on WhatsApp</small></span></div></section>
-<section class="section" id="products"><div class="heading"><div><span class="eyebrow" id="productsEyebrow">OUR COLLECTION</span><h2><span id="productsTitleBefore">Kitchen essentials,</span><br><em id="productsTitleAccent">thoughtfully chosen.</em></h2></div><p id="productsIntro">Explore our kitchenware collection for homes, retailers and bulk buyers.</p></div>
-<div class="tools"><div class="filters"><button class="filter active" data-filter="all">All products</button><button class="filter" data-filter="storage">Storage</button><button class="filter" data-filter="serveware">Serveware</button><button class="filter" data-filter="tools">Kitchen tools</button></div><input id="searchInput" placeholder="Search products..." aria-label="Search products"></div>
-<div class="grid" id="productGrid"></div><p class="note">Sample products and prices only — replace these with your actual catalogue before taking orders.</p></section>
-<section class="wholesale" id="wholesale"><div class="wholesale-art"><b>B2B</b><span>MADE FOR BUSINESS</span></div><div class="wholesale-copy"><span class="eyebrow">FOR RETAILERS & DISTRIBUTORS</span><h2>Buying in bulk?<br><em>Let's talk business.</em></h2><p>Tell us what you need, approximate quantity and delivery city. Enquire about wholesale pricing and availability.</p><ul><li>Bulk quantity enquiries</li><li>Product and price-list requests</li><li>Retailer and reseller enquiries</li></ul><button class="btn primary" id="wholesaleButton">◉ Send wholesale enquiry →</button></div></section>
+<section class="trust"><div><b>01</b><span><strong>Everyday utility</strong><small>Useful kitchen essentials</small></span></div><div><b>02</b><span><strong>Thoughtful design</strong><small>Made for daily use</small></span></div><div><b>03</b><span><strong>WhatsApp support</strong><small>We are here to help</small></span></div></section>
+<section class="section" id="categories">
+<div class="heading"><div><span class="eyebrow">SHOP BY CATEGORY</span><h2>Find your <em>essentials.</em></h2></div><p>Choose a category to explore its products.</p></div>
+<div class="category-carousel"><button class="category-arrow category-prev" id="categoryPrev" type="button" aria-label="Previous categories">‹</button><div class="category-grid" id="categoryGrid"></div><button class="category-arrow category-next" id="categoryNext" type="button" aria-label="Next categories">›</button></div><div class="category-page-dots" id="categoryPageDots" aria-label="Category pages"></div>
+</section>
 <section class="about" id="about"><div class="seal">J<span>✳</span></div><div><span class="eyebrow" id="aboutEyebrow">ABOUT JAINEX</span><h2><span id="aboutTitleBefore">Useful products.</span><br><em id="aboutTitleAccent">Everyday value.</em></h2></div><p id="aboutText">At Jainex Kitchenware, we believe that a better kitchen begins with practical, reliable and thoughtfully designed products.</p></section>
 <section class="contact" id="contact"><div><span class="eyebrow">LET'S CONNECT</span><h2 id="contactTitle">Have a product in mind?</h2><p id="contactText">Message us for product details, bulk quantities or order enquiries.</p></div><div class="contact-card"><strong>WhatsApp enquiry</strong><p>Product details, availability and bulk orders</p><button class="btn primary" id="contactButton">◉ Chat on WhatsApp →</button><small>For product details, availability and bulk orders.</small></div></section>
 </main>
-<footer><a class="footer-logo" href="#home"><img src="assets/jainex-logo.png" alt="Jainex Kitchenware"></a><p id="footerTagline">Everyday essentials for every kitchen.</p><div><a href="#products">Products</a><a href="#wholesale">Wholesale</a><a href="#contact">Contact</a></div><small>© <span id="year"></span> Jainex Kitchenware. All rights reserved.</small></footer>
+<footer><a class="footer-logo" href="#home"><img src="jainex-logo.png" alt="Jainex Kitchenware"></a><p id="footerTagline">Everyday essentials for every kitchen.</p><div><a href="products.html">Products</a><a href="#contact">Contact</a></div><small>© <span id="year"></span> Jainex Kitchenware. All rights reserved.</small></footer>
 <a class="floating-wa" id="floatingWhatsApp" href="#" aria-label="WhatsApp us">◉</a>
 <script src="script.js"></script>
- <section id="cartSection" class="section">
-  <h2>Shopping Cart</h2>
-  <div id="cartItems">Your cart is empty.</div>
-  <p>Subtotal: ₹<span id="cartSubtotal">0</span></p>
-  <p>GST: ₹<span id="cartGST">0</span></p>
-  <h3>Total: ₹<span id="cartTotal">0</span></h3>
-  <button type="button" id="checkoutButton" class="btn primary">
-    Proceed to Checkout
-  </button>
-   <div id="checkoutForm" class="section">
-  <h2>Customer & Delivery Details</h2>
-
-  <form id="orderForm">
-    <label>Customer / Shop Name *</label>
-    <input type="text" id="customerName" required>
-
-    <label>Mobile Number *</label>
-    <input type="tel" id="customerPhone" required>
-
-    <label>Full Shop / Delivery Address *</label>
-    <textarea id="customerAddress" required></textarea>
-
-    <label>City *</label>
-    <input type="text" id="customerCity" required>
-
-    <label>State *</label>
-    <input type="text" id="customerState" required>
-
-    <label>PIN Code *</label>
-    <input type="text" id="customerPin" required>
-
-    <label>GST Number (Optional)</label>
-    <input type="text" id="customerGST">
-
-    <button type="submit" class="btn primary">
-      Place Order on WhatsApp
-    </button>
-  </form>
-</div>
-</section> 
 </body></html>

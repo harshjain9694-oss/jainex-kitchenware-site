@@ -30,9 +30,13 @@ content:
         type: select
         required: true
         options:
-          values: [storage, serveware, tools]
+          values: [matka-stand, kitchen-sink, chopping-board, plate-rack, dish-drainer, fruit-trolley, oven-stand, wall-hook-rack]
       - name: price
         label: Price in INR
+        type: number
+        required: true
+      - name: gst
+        label: GST rate (%) — website applies fixed 5%
         type: number
         required: true
       - name: description
@@ -60,6 +64,58 @@ content:
     path: data/site.json
     format: json
     fields:
+      - name: slide1Image
+        label: Slider Banner 1 Image
+        type: image
+        options:
+          media: brand_assets
+          path: assets
+          extensions: [jpg, jpeg, png, webp]
+      - name: slide1Title
+        label: Slider Banner 1 Heading
+        type: string
+      - name: slide1Text
+        label: Slider Banner 1 Text
+        type: string
+      - name: slide2Image
+        label: Slider Banner 2 Image
+        type: image
+        options:
+          media: brand_assets
+          path: assets
+          extensions: [jpg, jpeg, png, webp]
+      - name: slide2Title
+        label: Slider Banner 2 Heading
+        type: string
+      - name: slide2Text
+        label: Slider Banner 2 Text
+        type: string
+      - name: slide3Image
+        label: Slider Banner 3 Image
+        type: image
+        options:
+          media: brand_assets
+          path: assets
+          extensions: [jpg, jpeg, png, webp]
+      - name: slide3Title
+        label: Slider Banner 3 Heading
+        type: string
+      - name: slide3Text
+        label: Slider Banner 3 Text
+        type: string
+      - name: slide4Image
+        label: Slider Banner 4 Image
+        type: image
+        options:
+          media: brand_assets
+          path: assets
+          extensions: [jpg, jpeg, png, webp]
+      - name: slide4Title
+        label: Slider Banner 4 Heading
+        type: string
+      - name: slide4Text
+        label: Slider Banner 4 Text
+        type: string
       - name: announcement
         label: Top announcement bar
         type: string
@@ -117,8 +173,17 @@ content:
       - name: headerBackgroundColor
         label: Header background color (hex)
         type: string
+      - name: whatsappNumber
+        label: WhatsApp number with country code
+        type: string
+      - name: logoPath
+        label: Logo image path
+        type: string
+      - name: categories
+        label: Category carousel configuration (JSON array)
+        type: text
       - name: wholesaleBackgroundColor
-        label: Wholesale section background color (hex)
+        label: Legacy section background color (hex)
         type: string
       - name: pageTitle
         label: Browser page title

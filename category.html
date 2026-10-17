@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Browse Jainex Kitchenware products by category."><title>Category Products | Jainex Kitchenware</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="announcement" id="announcement">JAINEX KITCHENWARE · EVERYDAY KITCHEN ESSENTIALS</div>
+<header class="header"><a class="brand" href="index.html"><img src="jainex-logo.png" alt="Jainex Kitchenware logo"></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button><nav id="navMenu"><a href="index.html">Home</a><a href="products.html">Products</a></nav><a class="header-link" href="cart.html">🛒 Cart (<span data-cart-count>0</span>)</a></header>
+<main class="section"><p class="breadcrumbs"><a href="index.html">Home</a> / <span id="categoryBreadcrumb">Category</span></p><div class="heading"><div><span class="eyebrow">OUR COLLECTION</span><h1 id="categoryTitle">Products</h1></div><p>Choose a product to view full details and select quantity.</p></div>
+<div class="tools"><input id="searchInput" placeholder="Search products..." aria-label="Search products"></div><div class="grid" id="productGrid"></div><p><a href="index.html#categories">← All categories</a></p></main>
+<a class="floating-wa" id="floatingWhatsApp" href="#" aria-label="WhatsApp us">◉</a><script>
+document.addEventListener("DOMContentLoaded",()=>{const c=new URLSearchParams(location.search).get("category")||"all";const names={storage:"Storage & Stands",serveware:"Serveware",tools:"Kitchen Tools",kitchenware:"Kitchenware",cookware:"Cookware",accessories:"Accessories","matka-stand":"Matka Stand","kitchen-sink":"Kitchen Sink","chopping-board":"Chopping Board","plate-rack":"Plate Rack","dish-drainer":"Dish Drainer","fruit-trolley":"Fruit Trolley","oven-stand":"Oven Stand","wall-hook-rack":"Wall Hook Rack"};const title=names[c]||c;document.getElementById("categoryTitle").textContent=title;document.getElementById("categoryBreadcrumb").textContent=title;});
+</script><script src="script.js"></script></body></html>

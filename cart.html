@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Review your Jainex Kitchenware order."><title>Shopping Cart | Jainex Kitchenware</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="announcement" id="announcement">JAINEX KITCHENWARE · EVERYDAY KITCHEN ESSENTIALS</div>
+<header class="header"><a class="brand" href="index.html"><img src="jainex-logo.png" alt="Jainex Kitchenware logo"></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button><nav id="navMenu"><a href="index.html">Home</a><a href="products.html">Products</a></nav><a class="header-link" href="cart.html">🛒 Cart (<span data-cart-count>0</span>)</a></header>
+<main class="section cart-page"><p class="breadcrumbs"><a href="index.html">Home</a> / Cart</p><div class="heading"><div><span class="eyebrow">YOUR ORDER</span><h1>Shopping <em>Cart</em></h1></div><p>Review quantities and total before placing your order.</p></div>
+<div id="cartPageItems"><p>Loading cart...</p></div>
+<section id="cartSummary" class="cart-summary" hidden><div class="summary-line"><span>Subtotal</span><strong id="cartSubtotal">₹0.00</strong></div><div class="summary-line"><span>GST</span><strong id="cartGST">₹0.00</strong></div><div class="summary-line summary-total"><span>Total bill</span><strong id="cartTotal">₹0.00</strong></div>
+<h2>Customer & Delivery Details</h2><form id="orderForm" class="checkout-form">
+<label>Customer / Shop Name *<input type="text" id="customerName" required></label>
+<label>Mobile Number *<input type="tel" id="customerPhone" required></label>
+<label>Full Shop / Delivery Address *<textarea id="customerAddress" required></textarea></label>
+<div class="form-two"><label>City *<input type="text" id="customerCity" required></label><label>State *<input type="text" id="customerState" required></label></div>
+<div class="form-two"><label>PIN Code *<input type="text" id="customerPin" inputmode="numeric" required></label><label>GSTIN (Optional)<input type="text" id="customerGST"></label></div>
+<button type="submit" class="btn primary">Place Order on WhatsApp →</button></form></section></main>
+<a class="floating-wa" id="floatingWhatsApp" href="#" aria-label="WhatsApp us">◉</a><script src="script.js"></script></body></html>

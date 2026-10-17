@@ -1,9 +1,9 @@
 {
-  "announcement": "RETAIL & WHOLESALE · BULK ORDERS WELCOME · WHATSAPP ENQUIRIES",
+  "announcement": "JAINEX KITCHENWARE · EVERYDAY KITCHEN ESSENTIALS",
   "heroEyebrow": "SMARTER EVERYDAY LIVING",
   "heroTitleBefore": "Good kitchens start with",
   "heroTitleAccent": "Jainex.",
-  "heroDescription": "Practical, dependable kitchenware for every home and every business. Shop retail or enquire about wholesale and bulk orders.",
+  "heroDescription": "Practical, dependable kitchenware for every home. Explore our collection and add your favourites to cart.",
   "productsEyebrow": "OUR COLLECTION",
   "productsTitleBefore": "Kitchen essentials,",
   "productsTitleAccent": "thoughtfully chosen.",
@@ -13,10 +13,76 @@
   "aboutTitleAccent": "Everyday value.",
   "aboutText": "At Jainex Kitchenware, we believe that a better kitchen begins with practical, reliable and thoughtfully designed products. We offer kitchenware and everyday home utility products for modern Indian homes, retailers and wholesale buyers. Our goal is to make useful kitchen essentials accessible with a focus on functionality, durability and value.",
   "contactTitle": "Have a product in mind?",
-  "contactText": "Message us for product details, bulk quantities or order enquiries.",
+  "contactText": "Message us for product details, bulk quantities or order enquiries.\n\n",
   "backgroundColor": "#fffefa",
   "heroBackgroundColor": "#f7f5f0",
-  "accentColor": "#c7352b",
+  "accentColor": "#f05a24",
   "headerBackgroundColor": "#fffefa",
-  "wholesaleBackgroundColor": "#f2f0e9"
+  "wholesaleBackgroundColor": "#f2f0e9",
+  "slide1Image": "assets/banners/slider-kitchen-organization.jpg",
+  "slide1Title": "Smart Kitchen Organization",
+  "slide1Text": "Keep your kitchen neat, clean and stylish.",
+  "slide2Image": "assets/banners/slider-chopping-board.jpg",
+  "slide2Title": "Hygienic Chopping Everyday",
+  "slide2Text": "Durable, easy to clean and long lasting.",
+  "slide3Image": "assets/banners/slider-wall-hooks.jpg",
+  "slide3Title": "Stylish Wall Hooks",
+  "slide3Text": "Strong, durable and multi-purpose.",
+  "slide4Image": "assets/banners/slider-fruit-rack.jpg",
+  "slide4Title": "Everyday Utility",
+  "slide4Text": "Elegant, sturdy and multi-use.",
+  "whatsappNumber": "916375571735",
+  "logoPath": "jainex-logo.png",
+  "categories": [
+    {
+      "key": "matka-stand",
+      "title": "Matka Stand",
+      "image": "assets/categories/matka-stand.jpg"
+    },
+    {
+      "key": "kitchen-sink",
+      "title": "Kitchen Sink",
+      "image": "assets/categories/kitchen-sink.jpg"
+    },
+    {
+      "key": "chopping-board",
+      "title": "Chopping Board",
+      "image": "assets/categories/chopping-board.jpg"
+    },
+    {
+      "key": "plate-rack",
+      "title": "Plate Rack",
+      "image": "assets/categories/plate-rack.jpg"
+    },
+    {
+      "key": "dish-drainer",
+      "title": "Dish Drainer",
+      "image": "assets/categories/dish-drainer.jpg"
+    },
+    {
+      "key": "fruit-trolley",
+      "title": "Fruit Trolley",
+      "image": "assets/categories/fruit-trolley.jpg"
+    },
+    {
+      "key": "oven-stand",
+      "title": "Oven Stand",
+      "image": "assets/categories/oven-stand.jpg"
+    },
+    {
+      "key": "wall-hook-rack",
+      "title": "Wall Hook Rack",
+      "image": "assets/categories/wall-hook-rack.jpg"
+    },
+    {
+      "key": "hot-mat",
+      "title": "Hot Mat",
+      "image": "assets/products/catalogue-photos/hot-mat.jpg"
+    },
+    {
+      "key": "corner-rack",
+      "title": "Corner Rack",
+      "image": "assets/products/catalogue-photos/corner-rack.jpg"
+    }
+  ]
 }
