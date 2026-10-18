@@ -2,33 +2,147 @@
   {
     "id": 1,
     "name": "Steel Jainex tray Matka Stand",
-    "category": "storage",
+    "category": "matka-stand",
     "price": 140,
     "description": "Upgrade your kitchen and dining space with the stylish Jainex Kitchenware Steel Matka Stand with Glass Tray. Made with a sleek stainless steel frame, this stand features a vibrant red tray and a lower storage section for glasses. Its modern design keeps your serving area organized while adding an elegant touch to your home.\n\nPerfect for serving water and keeping glasses neatly arranged for everyday use, guests, and special occasions.",
     "tag": "Best Seller",
     "icon": "⭐⭐⭐⭐",
-    "image": "/assets/products/ChatGPT Image Oct 14, 2026, 05_45_15 PM.jpg",
-    "active": true
+    "image": "assets/products/ChatGPT Image Oct 14, 2026, 05_45_15 PM.jpg",
+    "active": true,
+    "gst": 5
   },
   {
     "id": 2,
     "name": "Jainex Wair tray Matka Stand",
-    "category": "storage",
+    "category": "matka-stand",
     "price": 155,
     "tag": "Popular",
     "icon": "🍨",
-    "image": "/assets/products/4ee077eb-6727-448a-b133-1135cae483d2.jpg",
-    "active": true
+    "image": "assets/products/4ee077eb-6727-448a-b133-1135cae483d2.jpg",
+    "active": true,
+    "gst": 5
   },
   {
     "id": 3,
     "name": "Stainless Steel Wall Hook Rack – 6 Hooks",
-    "category": "storage",
+    "category": "wall-hook-rack",
     "price": 120,
     "description": "Organize your kitchen and home with the stylish Jainex Kitchenware Stainless Steel Wall Hook Rack. Featuring 6 sturdy hooks, this rack is ideal for hanging kitchen utensils, towels, cups, and everyday essentials. Its sleek stainless steel design helps keep your space neat and organized. A practical storage solution for kitchens and other areas of your home.\n\nNote: Please confirm the product dimensions and mounting accessories before purchase.",
     "tag": "New",
     "icon": "🏠",
-    "image": "/assets/products/ChatGPT Image Oct 14, 2026, 05_59_15 PM.jpg",
-    "active": true
+    "image": "assets/products/ChatGPT Image Oct 14, 2026, 05_59_15 PM.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 4,
+    "name": "Jainex Hot Mat",
+    "category": "hot-mat",
+    "price": 80,
+    "description": "Heat-resistant stainless-steel hot mat. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/hot-mat.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 5,
+    "name": "Stainless Steel Grill Rack",
+    "category": "oven-stand",
+    "price": 180,
+    "description": "Multi-purpose stainless-steel grill rack. Initial estimated price; confirm dimensions and edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/stainless-steel-grill.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 6,
+    "name": "Black Multi-Tier Fruit Trolley",
+    "category": "fruit-trolley",
+    "price": 850,
+    "description": "Multi-tier fruit trolley for kitchen storage. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/black-fruit-trolley.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 7,
+    "name": "Stainless Steel Fruit Basket",
+    "category": "fruit-trolley",
+    "price": 220,
+    "description": "Wire fruit basket for everyday kitchen use. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/fruit-basket.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 8,
+    "name": "Stainless Steel Fruit Trolley",
+    "category": "fruit-trolley",
+    "price": 750,
+    "description": "Multi-tier stainless-steel fruit trolley. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/stainless-fruit-trolley.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 9,
+    "name": "Stainless Steel Corner Rack",
+    "category": "corner-rack",
+    "price": 450,
+    "description": "Corner storage rack for kitchen essentials. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/corner-rack.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 10,
+    "name": "Stainless Steel Chopping Board",
+    "category": "chopping-board",
+    "price": 299,
+    "description": "Stainless-steel chopping board. Initial estimated price; confirm size and edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/chopping-board-banner.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 11,
+    "name": "Stainless Steel Napkin Holder",
+    "category": "plate-rack",
+    "price": 120,
+    "description": "Stainless-steel napkin holder. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/napkin-holder.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 12,
+    "name": "Red Tray Matka Stand",
+    "category": "matka-stand",
+    "price": 140,
+    "description": "Matka stand with red tray. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/matka-stand-red-tray.jpg",
+    "active": true,
+    "gst": 5
+  },
+  {
+    "id": 13,
+    "name": "Round Stainless Steel Stand",
+    "category": "matka-stand",
+    "price": 160,
+    "description": "Round stainless-steel utility stand. Initial estimated price; edit in Admin Panel.",
+    "tag": "New",
+    "image": "assets/products/catalogue-photos/round-stand.jpg",
+    "active": true,
+    "gst": 5
   }
+]
 ]
